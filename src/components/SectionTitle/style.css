@@ -1,0 +1,16 @@
+.underline::after {
+    content:"";
+    background-color: var(--primary);
+    height: 5px;
+    width: 100%;
+    display: block;
+    position: relative;
+    bottom: 0px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 60px;
+    line-height: 60px;
+    display: flex;
+}
