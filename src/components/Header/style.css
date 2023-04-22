@@ -6,13 +6,13 @@ header {
     padding: 20px 10%;
 }
 
-ul {
+.menu-list {
     display: flex;
     list-style: none;
     gap: 15px;
 }
 
-ul, li, a {
+.menu-list, li, a {
     height: 100%;
 }
 

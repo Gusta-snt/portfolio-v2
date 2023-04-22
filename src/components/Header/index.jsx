@@ -6,8 +6,8 @@ function Header(){
         <header>
 	    <img src={Logo} alt="Logo"/>
 	    <nav>
-	        <ul>
-		    <li><a href="#">Home</a></li>
+	        <ul className="menu-list">
+		    	<li><a href="#">Home</a></li>
 	            <li><a href="#">About</a></li>
 	    	    <li><button>Download CV</button></li>
 	        </ul>
