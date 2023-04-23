@@ -1,0 +1,31 @@
+.contacts {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+	height: auto;
+	padding: 50px 0px;
+}
+
+.contacts p {
+	font-size: 16px;
+}
+
+.contacts-body {
+	margin-top: 20px;
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.contacts-logo{
+	width: 350px;
+}
+
+.contacts-buttons {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 10px;
+}
+

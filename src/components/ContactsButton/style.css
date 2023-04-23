@@ -1,0 +1,25 @@
+.contacts-button {
+	background-color: var(--primary);
+	display: block;
+	width: 450px;
+	height: 55px;
+	border-radius: 30px;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 18px;
+	color: black;
+	text-decoration: none;
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 20px;
+	align-items: center;
+	transition: all .3s;
+}
+
+.contacts-button:hover {
+	border-radius: 0px;
+}
+
+.contacts-button img {
+	width: 30px;
+}

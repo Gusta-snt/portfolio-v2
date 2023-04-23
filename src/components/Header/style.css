@@ -16,7 +16,7 @@ header {
     height: 100%;
 }
 
-a, button {
+.header-link, button {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -24,14 +24,14 @@ a, button {
     line-height: 2rem;
 }
 
-a {
+.header-link {
     color: white;
     text-decoration: none;
     position: relative;
     overflow: hidden;
 }
 
-a::after {
+.header-link::after {
     content: "";
     width: 99%;
     height: 3px;
@@ -44,11 +44,11 @@ a::after {
     bottom: 14px;
 }
 
-a:hover::after {
+.header-link:hover::after {
     transform: translateX(0%);
 }
 
-a, li {
+.header-link, li {
     display: flex;
     align-items: center;
 }
