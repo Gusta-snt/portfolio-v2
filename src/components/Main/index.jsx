@@ -9,10 +9,10 @@ function Main() {
     return (
         <main>
             <Home />
-	       <hr />
-	       <Projects />
-	       <Skills />
-           <Contacts />
+	        <hr />
+	        <Projects />
+	        <Skills />
+            <Contacts />
         </main>
     )
 }

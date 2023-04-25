@@ -1,5 +1,7 @@
-section {
+.home {
     height: calc(100vh - 96px);
+    min-height: 550px;
+    max-height: 700px;
     width: 100%;
     display: flex;
     justify-content: space-between;
