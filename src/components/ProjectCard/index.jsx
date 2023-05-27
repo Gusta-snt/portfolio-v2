@@ -1,19 +1,22 @@
-import logo from './../../assets/logo.svg'
+
 
 import './style.css'
 
-function ProjectCard() {
+function ProjectCard(props) {
     return (
         <div className="card">
-            <img src={logo} alt="Portfolio Logo" className="card-logo"/>
-            <h3 className="card-title">Portfolio</h3>
+            <img src={props.logo} alt={props.alt} className="card-logo"/>
+            <h3 className="card-title">{props.title}</h3>
             <div className="card-texts">
-                <p className="card-description">My principal site were you can know me better or have a first contact with my projects.</p>
+                <p className="card-description">{props.description}</p>
                 <div>
                     <p className="card-techs-text">Technologies:</p>
                     <ul className="card-techs-list">
-                        <li>- React JS</li>
-                        <li>- Vite JS</li>
+                        {
+                            props.techs.map(tech => {
+                                return <li>{tech}</li>
+                            })
+                        }
                     </ul>
                 </div>
             </div>
