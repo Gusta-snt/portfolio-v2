@@ -1,9 +1,22 @@
+@keyframes fly {
+    0% {
+        bottom: 7px;
+    }
+    50% {
+        bottom: 0px;
+    }
+    100% {
+        bottom: 7px;
+    }
+}
+
 .home {
     height: calc(100vh - 96px);
     min-height: 550px;
     max-height: 700px;
     width: 100%;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     padding: 0px 10%;
 }
@@ -41,19 +54,23 @@ p {
 
 #image {
     position: relative;
-    display: flex;
-    align-items: center;
+    height: 350px;
+    animation-name: fly;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
 }
 
 #profile {
     border-radius: 50%;
-    position: relative;
+    width: 350px;
+    height: 350px;
+    position: absolute;
     z-index: 1;
 }
 
 #blob {
-    position: absolute;
-    top: 24%;
-    right: 40px;
+    position: relative;
+    top: 30px;
+    right: 30px;
     z-index: 0;
 }
