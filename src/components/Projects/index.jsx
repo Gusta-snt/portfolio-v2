@@ -2,7 +2,6 @@ import React, {useState, useEffect} from "react"
 
 import SectionTitle from './../SectionTitle'
 import ProjectCard from './../ProjectCard'
-import logo from './../../assets/logo.svg'
 
 import './style.css'
 
@@ -22,19 +21,20 @@ function Projects() {
             <SectionTitle>
 	            Projects
 	        </SectionTitle>
-            {
-                projects.map(project => {
-                    return (
-                        <ProjectCard 
-                            logo={project.img} 
-                            alt={project.alt} 
-                            title={project.title} 
-                            description={project.description}
-                            techs={project.techs}
-                        />
-                    )
-                })
-            }
+            <div>
+                {
+                    projects.map(project => {
+                        return (
+                            <ProjectCard 
+                                logo={project.img} 
+                                alt={project.alt} 
+                                title={project.title} 
+                                description={project.description}
+                            />
+                        )
+                    })
+                }
+            </div>
             
         </section>
     )

@@ -16,9 +16,9 @@ function Contacts() {
             <div className="contacts-body">
                 <img src={contactsLogo} className="contacts-logo"/>
                 <div className="contacts-buttons">
-                    <ContactsButton link="#" name="Github" image={githubLogo} />
-                    <ContactsButton link="#" name="Instagram" image={instagramLogo} />
-                    <ContactsButton link="#" name="Linkedin" image={linkedinLogo} />
+                    <ContactsButton link="https://github.com/Gusta-snt" name="Github" image={githubLogo} />
+                    <ContactsButton link="https://www.instagram.com/gustavo_santosfr/" name="Instagram" image={instagramLogo} />
+                    <ContactsButton link="https://www.linkedin.com/in/gustavo-ferreira-dos-santos-a3b6b1231/" name="Linkedin" image={linkedinLogo} />
                 </div>
             </div>
         </section>
