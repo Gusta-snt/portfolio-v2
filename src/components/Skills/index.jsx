@@ -10,7 +10,7 @@ function Skills() {
 	const [skills, setSkills] = useState([])
 
     useEffect(() => {
-        fetch("http://localhost:5000/skills")
+        fetch("http://localhost:8000/skills")
             .then(res => res.json())
             .then(data => setSkills(data))
             .catch(err => console.error(err))
@@ -23,7 +23,7 @@ function Skills() {
 		    	{
 		    		skills.map(skill => {
 		    			return (
-		    				<SkillCard logo={skill.img} title={skill.title} description={skill.description} />
+		    				<SkillCard key={skill.key} logo={skill.img} title={skill.title} description={skill.description} />
 		    			)
 		    		})
 		    	}
