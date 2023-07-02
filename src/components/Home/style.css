@@ -11,9 +11,7 @@
 }
 
 .home {
-    height: calc(100vh - 96px);
-    min-height: 550px;
-    max-height: 700px;
+    height: 600px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -50,27 +48,36 @@ p {
 
 #blob, #profile {
     max-width: 350px;
+    width: 100vw;
 }
 
-#image {
+#images {
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
     position: relative;
-    height: 350px;
     animation-name: fly;
     animation-duration: 2.5s;
     animation-iteration-count: infinite;
 }
 
-#profile {
-    border-radius: 50%;
-    width: 350px;
-    height: 350px;
+#image-blob {
+    position: absolute;
+    z-index: 0;
+    margin-right: 50px;
+    margin-bottom: 20px
+}
+
+#image-profile {
     position: absolute;
     z-index: 1;
 }
 
-#blob {
-    position: relative;
-    top: 30px;
-    right: 30px;
-    z-index: 0;
+#image-profile #profile {
+    border-radius: 50%;
+}
+
+#profile, #blob {
+    width: 400px;
 }
