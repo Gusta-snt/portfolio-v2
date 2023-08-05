@@ -1,0 +1,27 @@
+@media only screen and (max-width: 1100px) {
+	.contacts-body {
+		flex-direction: column-reverse;
+		justify-content: center;
+		align-items: center;
+		gap: 30px;
+	}
+
+	.contacts-logo {
+		width: 300px;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.contacts-logo {
+		width: 250px;
+	}
+	.contacts {
+		padding: 50px 0 40px 0;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.contacts-logo {
+		width: 200px;
+	}
+}

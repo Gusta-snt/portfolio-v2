@@ -1,4 +1,5 @@
 import './style.css'
+import './responsivity.css'
 
 import contactsLogo from './../../assets/contacts-logo.svg'
 import githubLogo from './../../assets/github-logo.png'
