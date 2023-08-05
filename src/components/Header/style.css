@@ -73,3 +73,7 @@ button {
 button:hover {
     border-radius: 0px;
 }
+
+#active {
+    display: none;
+}
