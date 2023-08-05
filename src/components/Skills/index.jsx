@@ -18,12 +18,17 @@ function Skills() {
 
     return (
         <section className="skills">
-            <SectionTitle>Skills</SectionTitle>
+            <SectionTitle lang="en">Skills</SectionTitle>
 		    <div>
 		    	{
 		    		skills.map(skill => {
 		    			return (
-		    				<SkillCard key={skill.key} logo={skill.img} title={skill.title} description={skill.description} />
+		    				<SkillCard 
+							key={skill.key} 
+							logo={skill.img} 
+							title={skill.title} 
+							description={skill.description} 
+						/>
 		    			)
 		    		})
 		    	}

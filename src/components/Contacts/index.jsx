@@ -11,7 +11,7 @@ import ContactsButton from './../ContactsButton'
 function Contacts() {
     return (
         <section className="contacts">
-            <SectionTitle>Contacts</SectionTitle>
+            <SectionTitle>Contatos</SectionTitle>
             <p>snt.gustavoferreira@gmail.com</p>
             <div className="contacts-body">
                 <img src={contactsLogo} className="contacts-logo"/>

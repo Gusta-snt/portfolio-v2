@@ -10,7 +10,7 @@ function Projects() {
     const [projects, setProjects] = useState([])
 
     useEffect(() => {
-        fetch("http://localhost:5000/projects")
+        fetch("http://localhost:8000/projects")
             .then(res => res.json())
             .then(data => setProjects(data))
             .catch(err => console.error(err))
@@ -19,17 +19,22 @@ function Projects() {
     return (
         <section className="projects">
             <SectionTitle>
-	            Projects
-	        </SectionTitle>
+	            Projetos
+	    </SectionTitle>
             <div>
                 {
                     projects.map(project => {
+			console.log(project.repo)
                         return (
                             <ProjectCard 
+				key={project.key}
                                 logo={project.img} 
+				logoWidth={project.imgWidth}
                                 alt={project.alt} 
                                 title={project.title} 
+				titleFontSize={project.titleFontSize}
                                 description={project.description}
+				repo={project.repo}
                             />
                         )
                     })

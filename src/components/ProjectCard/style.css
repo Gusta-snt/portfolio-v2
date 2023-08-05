@@ -1,5 +1,10 @@
+.project-card-link {
+    color: var(--white);
+    text-decoration: none;
+}
+
 .project-card {
-	width: 250px;
+    width: 250px;
     height: 390px;
     border: 1px solid white;
     border-radius: 10px;
@@ -8,10 +13,16 @@
     align-items: center;
     padding: 20px 30px;
     gap: 20px;
+    transition: all 0.2s;
+}
+
+.project-card:hover {
+    box-shadow:
+    0 0 50px 5px #fff;
 }
 
 .project-card img {
-	width: 60px;
+    width: 60px;
 }
 
 .project-card h3 {

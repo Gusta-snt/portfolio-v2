@@ -3,7 +3,7 @@ import './style.css'
 function Footer() {
     return (
         <footer>
-            <p>Made with &#128154; by Gustavo Ferreira</p>
+            <p>Feito com &#128154; por Gustavo Ferreira</p>
         </footer>
     )
 }
