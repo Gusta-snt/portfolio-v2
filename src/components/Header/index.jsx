@@ -30,7 +30,7 @@ function Header(){
 				    	<li><button lang="en">Download CV</button></li>
 				    </ul>
 				    <label htmlFor="active" className="close-btn">
-				    	<img src={CloseIcon} alt="Abrir menu"/>
+				    	<img src={CloseIcon} alt="Fechar menu"/>
 				    </label>
 				</nav>
 			</div>

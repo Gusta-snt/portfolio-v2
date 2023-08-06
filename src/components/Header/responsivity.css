@@ -1,19 +1,20 @@
 @media only screen and (max-width: 800px) {
 	.close-btn {
-		position: absolute;
-		top: 20px;
-		right: 30px;
+	    display: flex;
+	    position: absolute;
+	    top: 20px;
+	    right: 30px;
 	}
 
 	.menu-btn {
-		position: absolute;
-		right: calc(20% - 60px);
-		top: 20px;
+	    position: absolute;
+	    right: calc(20% - 60px);
+	    top: 20px;
 	    background-color: var(--primary); 
 	}
 
-	.menu-btn, .close-btn {
-		width: 60px;
+	.menu-btn, .close-btn {	
+	    width: 60px;
 	    height: 60px;
 	    display: flex;
 	    justify-content: center;

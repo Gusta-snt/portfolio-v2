@@ -74,6 +74,6 @@ button:hover {
     border-radius: 0px;
 }
 
-#active {
+#active, .close-btn, .menu-btn {
     display: none;
 }
