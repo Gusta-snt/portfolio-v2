@@ -46,10 +46,6 @@ p {
     border-radius: 10px; 
 }
 
-#blob, #profile {
-    max-width: 350px;
-    width: 100vw;
-}
 
 #images {
     display:flex;
@@ -79,5 +75,11 @@ p {
 }
 
 #profile, #blob {
-    width: 400px;
+    width: 350px;
+}
+
+#profile {
+    object-fit: cover;
+    object-position: center;
+    height: 350px;
 }

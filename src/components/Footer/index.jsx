@@ -4,7 +4,7 @@ import './responsivity.css'
 function Footer() {
     return (
         <footer>
-            <p>Feito com &#128154; por Gustavo Ferreira</p>
+            <p>Feito com &#128153; por Gustavo Ferreira</p>
         </footer>
     )
 }

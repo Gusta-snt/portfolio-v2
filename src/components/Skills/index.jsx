@@ -10,7 +10,7 @@ function Skills() {
 	const [skills, setSkills] = useState([])
 
     useEffect(() => {
-        fetch("http://localhost:8000/skills")
+        fetch(import.meta.env.VITE_API_BACKEND_LINK + "/skills")
             .then(res => res.json())
             .then(data => setSkills(data))
             .catch(err => console.error(err))

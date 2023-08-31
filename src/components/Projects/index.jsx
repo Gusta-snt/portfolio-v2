@@ -10,7 +10,7 @@ function Projects() {
     const [projects, setProjects] = useState([])
 
     useEffect(() => {
-        fetch("http://localhost:8000/projects")
+        fetch(import.meta.env.VITE_API_BACKEND_LINK + "/projects")
             .then(res => res.json())
             .then(data => setProjects(data))
             .catch(err => console.error(err))

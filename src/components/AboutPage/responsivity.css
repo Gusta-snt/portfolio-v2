@@ -1,0 +1,41 @@
+@media only screen and (max-width: 1100px) {
+	.aside-left p {
+		font-size: 2rem;
+	}
+
+	.aside-right img {
+		width: 400px;
+	}
+}
+
+@media only screen and (max-width: 950px) {
+	.aside-left p {
+		font-size: 1.6rem;
+	}
+
+	.aside-right img {
+		width: 370px;
+	}
+}
+
+@media only screen and (max-width: 830px) {
+	.aside-left p {
+		font-size: 2.0rem;
+	}
+
+	.aside-right {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 950px) {
+	.aside-left h1 {
+		font-size: 3rem;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.aside-left p {
+		font-size: 1.8rem;
+	}
+}
