@@ -20,7 +20,7 @@ header div {
     gap: 15px;
 }
 
-.menu-list, li, .download-btn {
+.menu-list, li, .header-link {
     height: 100%;
 }
 
