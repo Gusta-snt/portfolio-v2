@@ -20,11 +20,11 @@ header div {
     gap: 15px;
 }
 
-.menu-list, li, a {
+.menu-list, li, .download-btn {
     height: 100%;
 }
 
-.header-link, button {
+.header-link, .download-btn {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -61,7 +61,9 @@ header div {
     align-items: center;
 }
 
-button {
+.download-btn {
+    color: black;
+    text-decoration: none;
     padding: 19px;
     border-radius: 60px;
     border: none;
@@ -70,7 +72,7 @@ button {
     transition: all 0.4s;
 }
 
-button:hover {
+.download-btn:hover {
     border-radius: 0px;
 }
 

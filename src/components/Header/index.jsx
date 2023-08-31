@@ -7,6 +7,7 @@ import './responsivity.css'
 import Logo from './../../assets/logo.svg'
 import MenuIcon from './../../assets/menu-icon.svg'
 import CloseIcon from './../../assets/close-icon.svg'
+import Curriculo from './../../assets/curriculo.pdf'
 
 function Header(){
 	let [classNav, setNav] = useState("off") 
@@ -27,7 +28,7 @@ function Header(){
 				    <ul className="menu-list">
 						<li><Link to="/" className="header-link" lang="en">Home</Link></li>
 				        <li><Link to="/about" className="header-link">Sobre</Link></li>
-				    	<li><button lang="en">Download CV</button></li>
+				    	<li><a className="download-btn" lang="en" href={Curriculo} download="curriculo">Download CV</a></li>
 				    </ul>
 				    <label htmlFor="active" className="close-btn">
 				    	<img src={CloseIcon} alt="Fechar menu"/>

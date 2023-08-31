@@ -10,6 +10,7 @@
 
 	#images img {
 		width: 300px;
+		height: 300px;
 	}
 
 	#images div {
@@ -49,11 +50,9 @@
 	.subtitle-underline::after {
 		width: 23px;
 	}
-}
-
-@media only screen and (max-width: 400px) {
 	#images img {
 		width: 250px;
+		height: 250px;
 	}
 
 	#images div {
@@ -64,3 +63,4 @@
 		margin: 10px 0 0 80px;
 	}
 }
+

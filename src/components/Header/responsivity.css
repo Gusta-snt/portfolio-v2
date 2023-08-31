@@ -8,7 +8,7 @@
 
 	.menu-btn {
 	    position: absolute;
-	    right: calc(20% - 60px);
+	    right: 10%;
 	    top: 20px;
 	    background-color: var(--primary); 
 	}
