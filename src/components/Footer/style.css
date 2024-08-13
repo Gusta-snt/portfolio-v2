@@ -1,6 +1,7 @@
 footer {
 	background-color: var(--dark-gray);
 	height: 80px;
+	width: 99%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
