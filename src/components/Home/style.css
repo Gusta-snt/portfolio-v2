@@ -75,11 +75,11 @@ p {
 }
 
 #profile, #blob {
-    width: 350px;
+    width: 310px;
 }
 
 #profile {
     object-fit: cover;
     object-position: center;
-    height: 350px;
+    height: 310px;
 }
