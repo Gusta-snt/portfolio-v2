@@ -3,7 +3,6 @@ import './responsivity.css'
 
 import contactsLogo from './../../assets/contacts-logo.svg'
 import githubLogo from './../../assets/github-logo.png'
-import instagramLogo from './../../assets/instagram-logo.svg'
 import linkedinLogo from './../../assets/linkedin-logo.svg'
 
 import SectionTitle from './../SectionTitle'
@@ -18,7 +17,6 @@ function Contacts() {
                 <img src={contactsLogo} className="contacts-logo"/>
                 <div className="contacts-buttons">
                     <ContactsButton link="https://github.com/Gusta-snt" name="Github" image={githubLogo} />
-                    <ContactsButton link="https://www.instagram.com/gustavo_santosfr/" name="Instagram" image={instagramLogo} />
                     <ContactsButton link="https://www.linkedin.com/in/gustavo-ferreira-dos-santos-a3b6b1231/" name="Linkedin" image={linkedinLogo} />
                 </div>
             </div>

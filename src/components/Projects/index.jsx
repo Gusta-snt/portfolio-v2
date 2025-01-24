@@ -7,14 +7,24 @@ function Projects() {
 
     const projects = [
         {
-            alt: "Super Trunfo Logo",
-            description: "Um emocionante jogo de cartas em Java, no qual os jogadores podem selecionar temas para o baralho e competir estrategicamente contra o computador.",
-            img: "https://svgshare.com/i/vxd.svg",
-            imgWidth: "120px",
+            alt: "Logo do Gerador de KML",
+            description: "Um aplicativo que elabora um mapa das linhas de transmissão de certa subestação escolhida pelo usuário.",
+            img: "https://cdn-icons-png.flaticon.com/512/5105/5105746.png",
+            imgWidth: "70px",
+            key: "64cd942bb48108ce90676b0f",
+            repo: "https://docs.google.com/document/d/1ln-TTPXE6vHTBA_m6UHDx5PvxuK9AsWTbPT2FiVM1IY/edit?usp=sharing",
+            title: "Gerador de KML",
+            titleFontSize: "2.3rem"
+        },
+        {
+            alt: "Análise da turbina eólica",
+            description: "Utilizando variáveis medidas ao longo do tempo, é possível se fazer uma análise para basear uma decisão de manutenção nessa turbina eólica.",
+            img: "https://cdn-icons-png.flaticon.com/512/1783/1783849.png",
+            imgWidth: "60px",
             key: "64c6665d686be0565b06bdb0",
-            repo: "https://github.com/Gusta-snt/projeto-final-poo",
-            title: "Super Trunfo",
-            titleFontSize: "2.6rem"
+            repo: "https://github.com/Gusta-snt/Analise-eficiencia-turbina-eolica/tree/main",
+            title: "Eficiência da turbina eólica",
+            titleFontSize: "2.3rem"
         },
         {
             alt: "Logo do Github Profiles",
@@ -22,19 +32,9 @@ function Projects() {
             img: "https://i.ibb.co/Qkzh9sw/github-Profiles-Logo.png",
             imgWidth: "70px",
             key: "64cd8e12b48108ce90676b0e",
-            repo: "https://github.com/Gusta-snt/Github-Profiles",
+            repo: "https://github-profiles-gustasnt.vercel.app/",
             title: "Github Profiles",
             titleFontSize: "2.5rem"
-        },
-        {
-            alt: "Logo do Gold Price",
-            description: "Aplicativo Node.js que usa Axios e Cheerio para obter o valor atual do ouro por meio de web scraping.",
-            img: "https://svgshare.com/i/w8P.svg",
-            imgWidth: "120px",
-            key: "64cd942bb48108ce90676b0f",
-            repo: "https://github.com/Gusta-snt/node-webscraper-gold-price-backend",
-            title: "Gold Price",
-            titleFontSize: "2.6rem"
         }
     ]
     
@@ -48,14 +48,14 @@ function Projects() {
                     projects.map(project => {
                         return (
                             <ProjectCard 
-				                key={project.key}
-                                logo={project.img} 
-				                logoWidth={project.imgWidth}
-                                alt={project.alt} 
-                                title={project.title} 
-				                titleFontSize={project.titleFontSize}
-                                description={project.description}
-				                repo={project.repo}
+                               key={project.key}
+                               logo={project.img} 
+                               logoWidth={project.imgWidth}
+                               alt={project.alt} 
+                               title={project.title} 
+                               titleFontSize={project.titleFontSize}
+                               description={project.description}
+                               repo={project.repo}
                             />
                         )
                     })

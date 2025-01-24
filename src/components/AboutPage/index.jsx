@@ -13,16 +13,12 @@ function About() {
 				<aside className="aside-left">
 					<h1><span className="underline">Sob</span>re mim</h1>
 					<p>
-						Atualmente, atuo como Assistente Administrativo na Equatorial Energia Goiás, 
-						onde desenvolvo e implemento projetos de automação e análise de dados para 
-						a área do meio ambiente. Minha experiência inclui o uso de tecnologias como 
-						Excel, Python e Pandas, com interesse crescente em machine learning e banco de dados, 
-						o que me permite aplicar técnicas avançadas de ciência de dados em meus projetos. 
-						Além disso, sou responsável pela organização e gerenciamento de informações relativas a 
-						licenças ambientais e pela emissão de licenças de porte e uso de motosserras em conformidade 
-						com as normas do IBAMA. Complementando minha atuação profissional, também ofereço 
-						aulas particulares em disciplinas como Cálculo e Álgebra Linear, o que contribui para 
-						o aprimoramento constante do meu conhecimento matemático e didático.
+						Sou profissional com experiência em automação de processos e análise de dados,
+						focado em tornar operações mais eficientes e apoiar decisões estratégicas. 
+						Atualmente, atuo como assistente administrativo no planejamento da expansão da rede de energia
+						elétrica no estado de Goiás, contribuindo para o crescimento sustentável do setor energético.
+						Tenho especialidade em Python, Excel, JavaScript (ES6), Power Query e Power Automate, ferramentas
+						que utilizo para criar soluções inovadoras e agregar valor aos projetos em que participo.
 					</p>
 				</aside>
 				<aside className="aside-right">
